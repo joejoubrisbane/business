@@ -1,0 +1,1 @@
+scan all html then note down all images used in the whole project. Make a copy of those picture then reduce their size so the overal performance is improved. keep the ratio and everything the same. Moreover, create the images for differernt vieport.

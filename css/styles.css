@@ -11494,3 +11494,17 @@ header.masthead h1, header.masthead .h1 {
   top: 10;
   height: 70%;
 }
+
+/* Custom styles for carousel cards - restore natural height */
+#balloontwsitng.card,
+#ballooncharacter.card,
+#balloon_flower.card {
+  height: auto !important;
+}
+
+/* Ensure carousel images maintain aspect ratio */
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
