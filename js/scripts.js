@@ -30,8 +30,10 @@ window.addEventListener('DOMContentLoaded', event => {
     document.addEventListener('scroll', navbarShrink);
 
     // Activate Bootstrap scrollspy on the main nav element
+    // Only initialize ScrollSpy if there are anchor links in the navigation
     const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
+    const anchorLinks = document.querySelectorAll('#mainNav .nav-link[href^="#"]');
+    if (mainNav && anchorLinks.length > 0) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
             offset: 74,
