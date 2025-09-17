@@ -112,8 +112,6 @@ startbootstrap-creative-gh-pages/
 | Service | Duration | Price (AUD) |
 |---------|----------|-------------|
 | Balloon Twisting Entertainment | 1 hour | $180 |
-| Balloon Twisting Entertainment | 1.5 hours | $250 |
-| Balloon Twisting Entertainment | 2 hours | $320 |
 | Custom Balloon Character | One-time | $30 |
 | Balloon Flowers/Bouquets | One-time | $70 |
 | Balloon Number Bouquets | One-time | $100+ |
